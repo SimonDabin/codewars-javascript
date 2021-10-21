@@ -1,0 +1,26 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "code réalisé sur codewars.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "tdd": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonDabin/codewars-javascript.git"
+  },
+  "author": "Simon dabin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonDabin/codewars-javascript/issues"
+  },
+  "homepage": "https://github.com/SimonDabin/codewars-javascript#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.8",
+    "babel": "^6.23.0",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1"
+  }
+}
