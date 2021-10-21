@@ -1,3 +1,3 @@
-let friend = friends => friends.filter(friend => friend.length == 4)
+const friend = friends => friends.filter((friend) => friend.length == 4);
 
-export default friend
+export default friend;
