@@ -7,9 +7,8 @@
  * @return {number} the numbers of vowels in the string
  */
 function getCount(str) {
-  let vowelsCount = 0;
-
-  return vowelsCount += str.match(/[aeiou]/gi).length;
+  const matches = str.match(/[aeiou]/gi);
+  return matches ? matches.length : 0;
 }
 
 export default getCount;
