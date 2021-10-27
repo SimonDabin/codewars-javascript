@@ -10,7 +10,8 @@
         "sourceType": "module"
     },
     "rules": {
-        "arrow-parens": "off"
+        "arrow-parens": "off",
+        "max-len":"off",
     },
     "plugins": ["jest"]
 
