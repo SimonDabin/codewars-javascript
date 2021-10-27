@@ -7,6 +7,6 @@
  * @param {string} str input string
  * @return {string} string reversed
  */
-const solution = str => str.split('').reverse().join('');w
+const solution = str => str.split('').reverse().join('');
 
 export default solution;
